@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SBApiTodoListPOC.Models
 {
-    public class Task
+    public class ProjectTask
     {
         public int Id { get; set; }
         public string Description { get; set; }
