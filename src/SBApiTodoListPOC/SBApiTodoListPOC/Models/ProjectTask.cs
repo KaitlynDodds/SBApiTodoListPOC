@@ -9,8 +9,6 @@ namespace SBApiTodoListPOC.Models
     {
         public int Id { get; set; }
         public string Description { get; set; }
-        public string DateAdded { get; set; }
-        public string DateCompleted { get; set; }
         public bool IsCompleted { get; set; }
 
 
