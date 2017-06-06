@@ -13,7 +13,7 @@ namespace SBApiTodoListPOC.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201706061640215_Initial"; }
+            get { return "201706062049104_Initial"; }
         }
         
         string IMigrationMetadata.Source
