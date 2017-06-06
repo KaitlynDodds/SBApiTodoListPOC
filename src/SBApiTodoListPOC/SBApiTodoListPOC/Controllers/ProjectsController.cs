@@ -13,6 +13,7 @@ using SBApiTodoListPOC.Models;
 
 namespace SBApiTodoListPOC.Controllers
 {
+    [Authorize]
     public class ProjectsController : ApiController
     {
         private SBApiTodoListPOCContext db = new SBApiTodoListPOCContext();
